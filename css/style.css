@@ -1,0 +1,140 @@
+p{
+	font-size: 18px;
+	font-family: Georgia;
+	line-height: 28px;
+	text-align: left;
+}
+
+.graphic{
+	
+}
+
+.sidebar {
+	position: relative;
+	float: left;
+	width: 250px;
+	height: 500px;
+	z-index: 100;
+	margin-left: 50px;
+	margin: 30px;
+	background-color: black;
+}
+
+#BannerOne{
+	width:100%;
+	height: auto;
+	position: fixed;
+	top: 0px;
+	z-index: -100;
+}
+
+.wrapOne{
+	background-color: white;
+	margin-top: 60%;
+	width: 100%;
+	height: auto;
+	right:0;
+	bottom:0;
+	z-index: -100;
+}
+
+#TextOne{
+
+	margin-left:30%;
+	margin-right:20%;
+}
+
+
+#BannerTwo{
+	width:100%;
+	height: auto;
+}
+
+
+.wrapTwo{
+	background-color: white;
+	text-align: center;
+	width: 100%;
+}
+
+#TextTwo{
+	text-align: center;
+	margin-left:30%;
+	margin-right:20%;
+}
+
+#BannerThree{
+	width:100%;
+	height: 400px;
+	background-color: white;
+	background-image: url("placeholder3.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+
+.wrapThree{
+	background-color: white;
+	text-align: center;
+	width: 100%;
+}
+
+#TextThree{
+	text-align: center;
+	margin-left:30%;
+	margin-right:20%;
+}
+
+#wrapThreePhoto{
+	height: 200px;
+	position: relative;
+	float: left;
+	margin: 5%;
+}
+
+
+.BarrierOnePhoto{
+	height:300px;
+}
+
+a {
+	text-decoration: none;
+	}
+
+
+.buttonLeft{
+	height: 20px;
+	width: 20px;
+	background-color: black;
+	margin-left: 20px;
+	margin-top: 5%;
+	display: inline-block;
+}
+
+.buttonRight{
+	height: 20px;
+	width: 20px;
+	background-color: blue;
+	margin-right: 20px;
+	margin-top: 5%;
+	display: inline-block;
+}
+  
+   
+
+
+
+}
+
+img {
+	float:left;
+}
+
+#back {
+	clear:both;
+}
+
+.BOne{
+	background-color: pink;
+}
+
