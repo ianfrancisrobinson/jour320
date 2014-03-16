@@ -6,6 +6,11 @@ p{
 	text-align: left;
 }
 
+h1{
+	font-family: "Karla";
+	font-weight: bold;
+}
+
 .graphic{
 	width:50%;
 	
