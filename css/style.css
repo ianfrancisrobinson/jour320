@@ -22,29 +22,21 @@ body{
 
 .sidebar{
 	float:left;
-	width:200px;
+	width:300px;
 	height: auto;
-	background-color:blue;
+	margin-top: 50px;
 }
 
+.sidebar p {
+	font-family: "karla";
+	text-align: center;
+}
 .graphic{
 	width:50%;
 	float: left;
 	
 }
 
-/*
-.sidebar {
-	position: relative;
-	float: left;
-	width: 250px;
-	height: 500px;
-	z-index: 100;
-	margin-left: 50px;
-	margin: 30px;
-	background-color: black;
-}
-*/
 
 #BannerOne{
 	width:100%;
