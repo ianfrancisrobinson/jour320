@@ -126,5 +126,10 @@ $(document).ready(function() {
   		$('#wesleyan').fadeIn("slow");
   	});
 
+  	$('.s31').waypoint(function() {
+  		$('#disclaimer').fadeIn("slow");
+  	});
+
+
 
 });
