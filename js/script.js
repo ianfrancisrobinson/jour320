@@ -2,133 +2,208 @@ $(document).ready(function() {
 
 	$(".hide").hide();
 
-    $('.One').click(function() {
-        $(this).toggleClass('Two');
+    $('.Violence').click(function() {
+        $(this).toggleClass('ViolenceQuote');
     });
 
-    $('.s1').waypoint(function() {
-  		$('#uva').fadeIn("slow");
-  	});
+    $('.Victim').click(function() {
+        $(this).toggleClass('VictimQuote');
+    });
 
-  	$('.s2').waypoint(function() {
-  		$('#oku').fadeIn("slow");
-  	});
+    $('.Rep').click(function() {
+        $(this).toggleClass('RepQuote');
+    });
 
-  	$('.s3').waypoint(function() {
-  		$('#nd').fadeIn("slow");
-  	});
+
+    $window = $(window);
+
+	$window.scroll(function() {
+    	if ( $window.scrollTop() >= $(".s1").offset().top) {
+    		$('#uva').fadeIn("slow");
+    		console.log("1")
+    	}
+	});
+
+	$window.scroll(function() {
+    	if ( $window.scrollTop() >= $(".s2").offset().top) {
+    		$('#oku').fadeIn("slow");
+    		console.log("2")
+    	}
+	});
+
+	$window.scroll(function() {
+    	if ( $window.scrollTop() >= $(".s3").offset().top) {
+    		$('#nd').fadeIn("slow");
+    		console.log("2")
+    	}
+	});
+
+	$window.scroll(function() {
+    	if ( $window.scrollTop() >= $(".s4").offset().top) {
+    		$('#dartmouth').fadeIn("slow");
+    		console.log("2")
+    	}
+	});
     
-    $('.s4').waypoint(function() {
-  		$('#dartmouth').fadeIn("slow");
-  	});
+   	$window.scroll(function() {
+    	if ( $window.scrollTop() >= $(".s5").offset().top) {
+    		$('#oxy').fadeIn("slow");
+    		console.log("2")
+    	}
+	});
 
-  	$('.s5').waypoint(function() {
-  		$('#oxy').fadeIn("slow");
-  	});
+ 	$window.scroll(function() {
+    	if ( $window.scrollTop() >= $(".s6").offset().top) {
+    		$('#unc').fadeIn("slow");
+    		console.log("2")
+    	}
+	});
 
-  	$('.s6').waypoint(function() {
-  		$('#unc').fadeIn("slow");
-  	});
+ 	$window.scroll(function() {
+    	if ( $window.scrollTop() >= $(".s7").offset().top) {
+    		$('#usc').fadeIn("slow");
+    	}
+	});
 
-  	$('.s7').waypoint(function() {
-  		$('#usc').fadeIn("slow");
-  	});
+ 	$window.scroll(function() {
+    	if ( $window.scrollTop() >= $(".s8").offset().top) {
+    		$('#boulder').fadeIn("slow");
+    		console.log("2")
+    	}
+	});
 
-  	$('.s8').waypoint(function() {
-  		$('#boulder').fadeIn("slow");
-  	});
+	$window.scroll(function() {
+    	if ( $window.scrollTop() >= $(".s9").offset().top) {
+    		$('#swart').fadeIn("slow");
+    		console.log("2")
+    	}
+	});
 
-  	$('.s9').waypoint(function() {
-  		$('#swart').fadeIn("slow");
-  	});
+	$window.scroll(function() {
+    	if ( $window.scrollTop() >= $(".s10").offset().top) {
+    		$('#cedar').fadeIn("slow");
+    	}
+	});
 
-  	$('.s10').waypoint(function() {
-  		$('#cedar').fadeIn("slow");
-  	});
+  	$window.scroll(function() {
+    	if ( $window.scrollTop() >= $(".s11").offset().top) {
+    		$('#amherst').fadeIn("slow");
+    	}
+	});
 
-  	$('.s11').waypoint(function() {
-  		$('#amherst').fadeIn("slow");
-  	});
+  	$window.scroll(function() {
+    	if ( $window.scrollTop() >= $(".s12").offset().top) {
+    		$('#vandy').fadeIn("slow");
+    	}
+	});
 
-  	$('.s12').waypoint(function() {
-  		$('#vandy').fadeIn("slow");
-  	});
+  	$window.scroll(function() {
+    	if ( $window.scrollTop() >= $(".s13").offset().top) {
+    		$('#ui').fadeIn("slow");
+    	}
+	});
 
-  	$('.s13').waypoint(function() {
-  		$('#ui').fadeIn("slow");
-  	});
+  	$window.scroll(function() {
+    	if ( $window.scrollTop() >= $(".s14").offset().top) {
+    		$('#cm').fadeIn("slow");
+    	}
+	});
 
-  	$('.s14').waypoint(function() {
-  		$('#cm').fadeIn("slow");
-  	});
+  	$window.scroll(function() {
+    	if ( $window.scrollTop() >= $(".s15").offset().top) {
+    		$('#penn').fadeIn("slow");
+    	}
+	});
 
-  	$('.s15').waypoint(function() {
-  		$('#penn').fadeIn("slow");
-  	});
+  	$window.scroll(function() {
+    	if ( $window.scrollTop() >= $(".s16").offset().top) {
+    		$('#hanover').fadeIn("slow");
+    	}
+	});
 
-  	$('.s16').waypoint(function() {
-  		$('#hanover').fadeIn("slow");
-  	});
+  	$window.scroll(function() {
+    	if ( $window.scrollTop() >= $(".s17").offset().top) {
+    		$('#emerson').fadeIn("slow");
+    	}
+	});
 
-  	$('.s17').waypoint(function() {
-  		$('#emerson').fadeIn("slow");
-  	});
+  	$window.scroll(function() {
+    	if ( $window.scrollTop() >= $(".s18").offset().top) {
+    		$('#uconn').fadeIn("slow");
+    	}
+	});
 
-  	$('.s18').waypoint(function() {
-  		$('#uconn').fadeIn("slow");
-  	});
+  	$window.scroll(function() {
+    	if ( $window.scrollTop() >= $(".s19").offset().top) {
+    		$('#miss').fadeIn("slow");
+    	}
+	});
 
-  	$('.s19').waypoint(function() {
-  		$('#miss').fadeIn("slow");
-  	});
+  	$window.scroll(function() {
+    	if ( $window.scrollTop() >= $(".s20").offset().top) {
+    		$('#fsu').fadeIn("slow");
+    	}
+	});
 
-  	$('.s20').waypoint(function() {
-  		$('#fsu').fadeIn("slow");
-  	});
+	$window.scroll(function() {
+    	if ( $window.scrollTop() >= $(".s21").offset().top) {
+    		$('#cu').fadeIn("slow");
+    	}
+	});
 
-  	$('.s21').waypoint(function() {
-  		$('#cu').fadeIn("slow");
-  	});
+  	$window.scroll(function() {
+    	if ( $window.scrollTop() >= $(".s22").offset().top) {
+    		$('#berkely').fadeIn("slow");
+    	}
+	});
 
-  	$('.s22').waypoint(function() {
-  		$('#berkely').fadeIn("slow");
-  	});
+  	$window.scroll(function() {
+    	if ( $window.scrollTop() >= $(".s23").offset().top) {
+    		$('#akron').fadeIn("slow");
+    	}
+	});
 
-  	$('.s23').waypoint(function() {
-  		$('#akron').fadeIn("slow");
-  	});
+  	$window.scroll(function() {
+    	if ( $window.scrollTop() >= $(".s24").offset().top) {
+    		$('#hobart').fadeIn("slow");
+    	}
+	});
 
-  	$('.s24').waypoint(function() {
-  		$('#hobart').fadeIn("slow");
-  	});
+  	$window.scroll(function() {
+    	if ( $window.scrollTop() >= $(".s25").offset().top) {
+    		$('#uc').fadeIn("slow");
+    	}
+	});
 
-  	$('.s25').waypoint(function() {
-  		$('#uc').fadeIn("slow");
-  	});
+	$window.scroll(function() {
+    	if ( $window.scrollTop() >= $(".s26").offset().top) {
+    		$('#msu').fadeIn("slow");
+    	}
+	});
 
-  	$('.s26').waypoint(function() {
-  		$('#msu').fadeIn("slow");
-  	});
+  	$window.scroll(function() {
+    	if ( $window.scrollTop() >= $(".s27").offset().top) {
+    		$('#nu').fadeIn("slow");
+    	}
+	});
 
-  	$('.s27').waypoint(function() {
-  		$('#nu').fadeIn("slow");
-  	});
+  	$window.scroll(function() {
+    	if ( $window.scrollTop() >= $(".s28").offset().top) {
+    		$('#smu').fadeIn("slow");
+    	}
+	});
 
-  	$('.s28').waypoint(function() {
-  		$('#smu').fadeIn("slow");
-  	});
+  	$window.scroll(function() {
+    	if ( $window.scrollTop() >= $(".s29").offset().top) {
+    		$('#bsu').fadeIn("slow");
+    	}
+	});
 
-  	$('.s29').waypoint(function() {
-  		$('#bsu').fadeIn("slow");
-  	});
-
-  	$('.s30').waypoint(function() {
-  		$('#wesleyan').fadeIn("slow");
-  	});
-
-  	$('.s31').waypoint(function() {
-  		$('#disclaimer').fadeIn("slow");
-  	});
+  	$window.scroll(function() {
+    	if ( $window.scrollTop() >= $(".s30").offset().top) {
+    		$('#wesleyan').fadeIn("slow");
+    	}
+	});
 
 
 
