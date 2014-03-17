@@ -64,6 +64,7 @@ h2{
 	height: auto;
 	position: fixed;
 	top: 0px;
+	left:0;
 	z-index: -100;
 }
 
