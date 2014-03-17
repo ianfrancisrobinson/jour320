@@ -14,9 +14,18 @@ p{
 }
 
 h1{
-	font-family: "freight-text-pro";
+	font-family: "Karla";
 	font-weight: bold;
 	text-align: left;
+	color: #DD4B5D;
+}
+
+h2{
+
+	font-family: "Karla";
+	font-weight: bold;
+	font-size: 24px;
+	text-align: center;
 	color: #DD4B5D;
 }
 
@@ -28,9 +37,14 @@ h1{
 }
 
 .sidebar p {
-	font-family: "karla";
+	font-family: "Karla";
+	font-size: 18px;
 	text-align: center;
+	margin-top:150px;
+	color: #242522;
+	line-height: 24px;
 }
+
 .graphic{
 	width:50%;
 	float: left;
