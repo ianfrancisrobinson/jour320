@@ -18,6 +18,9 @@ h1{
 	font-weight: bold;
 	text-align: left;
 	color: #DD4B5D;
+	font-size: 64px;
+	margin-left: 24px;
+	
 }
 
 h2{
@@ -49,6 +52,32 @@ h2{
 	font-size: 16px;
 }
 
+
+
+#dartmouthsucks{
+	background-color: #A0DCB5;
+}
+
+#ucberkely{
+	background-color: #5C46AD;
+}
+
+#yaleuniv{
+	background-color: #DD4B5D;
+}
+
+#amherstcol{
+	background-color: #4D5EFA;
+}
+
+#uncchap{
+	background-color: #E9E9BE;
+}
+
+#northwestern{
+	background-color: #A0DCB5;
+}
+
 #disclaimer {
 	font-family:font-family: "freight-text-pro", Georgia, serif;
 	font-weight: "light"; 
@@ -58,6 +87,17 @@ h2{
 
 }
 
+a {
+	color:#A0DCB5;
+}
+
+.slider{
+	width:100%;
+	height: auto;
+	margin:0;
+	padding:0;
+	display:block;
+}
 
 #Banner{
 	width:100%;
@@ -66,6 +106,7 @@ h2{
 	top: 0px;
 	left:0;
 	z-index: -100;
+	overflow: hidden;
 }
 
 .wrap{
@@ -120,7 +161,6 @@ h2{
 .violenceQuote:hover{
 	opacity:1.0;
 }
-
 
 
 .victim{
@@ -198,7 +238,6 @@ h2{
 
 .rep:hover{
 	opacity:1.0;
-	filter:alpha(opacity=100); 
 }
 
 .repQuote{
