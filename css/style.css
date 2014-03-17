@@ -42,7 +42,7 @@ h2{
 	text-align: center;
 	color: #DD4B5D;
 	line-height: 24px;
-	margin-top: 275px;
+	margin-top: 300px;
 }
 
 #subhead {
@@ -58,11 +58,6 @@ h2{
 
 }
 
-.graphic{
-	width:50%;
-	float: left;
-	
-}
 
 #Banner{
 	width:100%;
@@ -88,55 +83,51 @@ h2{
 }
 
 
-img {
-	float:left;
-}
-
 .violence{
-	width: 500px;
-	height: 375px;
+	width: 600px;
+	height: 450px;
 	border-radius: 10px;
-	margin: auto;
-	opacity:0.4;
-	filter:alpha(opacity=40);
+	margin-right:20%;
+	opacity:0.6;
 	background-image: url("http://i.imgur.com/hStPhjI.png");
 	background-size: cover;
 	background-position: center;
 	
 }
 
+#info{
+	width:600px;
+	margin-bottom: 25px;
+}
+
 .violence:hover{
 	opacity:1.0;
-	filter:alpha(opacity=100); /* For IE8 and earlier */
 }
 
 .violenceQuote{
-	width: 500px;
-	height: 375px;
+	width: 600px;
+	height: 450px;
 	border-radius: 10px;
-	margin: auto;
-	opacity:0.4;
-	filter:alpha(opacity=40);
+	margin-right:20%;
+	opacity:0.6;
 	background-image: url("http://i.imgur.com/QCPu75Y.png");
 	background-size: cover;
-	background-position: center;
+	background-position: left;
 }
 
 
 .violenceQuote:hover{
 	opacity:1.0;
-	filter:alpha(opacity=100); /* For IE8 and earlier */
 }
 
 
 
 .victim{
-	width: 500px;
-	height: 375px;
+	width: 600px;
+	height: 450px;
 	border-radius: 10px;
-	margin: auto;
-	opacity:0.4;
-	filter:alpha(opacity=40);
+	margin-right:20%;
+	opacity:0.6;
 	background-image: url("http://i.imgur.com/qV93jih.png");
 	background-size: cover;
 	background-position: center;
@@ -145,16 +136,14 @@ img {
 
 .victim:hover{
 	opacity:1.0;
-	filter:alpha(opacity=100); /* For IE8 and earlier */
 }
 
 .victimQuote{
-	width: 500px;
-	height: 375px;
+	width: 600px;
+	height: 450px;
 	border-radius: 10px;
-	margin: auto;
-	opacity:0.4;
-	filter:alpha(opacity=40);
+	margin-right:20%;
+	opacity:0.6;
 	background-image: url("http://i.imgur.com/pVnspXy.png");
 	background-size: cover;
 	background-position: center;
@@ -163,16 +152,14 @@ img {
 
 .victimQuote:hover{
 	opacity:1.0;
-	filter:alpha(opacity=100); /* For IE8 and earlier */
 }
 
 .rep{
-	width: 500px;
-	height: 375px;
+	width: 600px;
+	height: 450px;
 	border-radius: 10px;
-	margin: auto;
-	opacity:0.4;
-	filter:alpha(opacity=40);
+	margin-right:20%;
+	opacity:0.6;
 	background-image: url("http://i.imgur.com/QQ2k650.png?1");
 	background-size: cover;
 	background-position: center;
@@ -181,16 +168,15 @@ img {
 
 .rep:hover{
 	opacity:1.0;
-	filter:alpha(opacity=100); /* For IE8 and earlier */
+	filter:alpha(opacity=100); 
 }
 
 .repQuote{
-	width: 500px;
-	height: 375px;
+	width: 600px;
+	height: 450px;
 	border-radius: 10px;
-	margin: auto;
+	margin-right:20%;
 	opacity:0.4;
-	filter:alpha(opacity=40);
 	background-image: url("http://i.imgur.com/i7Wfvp3.png");
 	background-size: cover;
 	background-position: center;
@@ -199,5 +185,4 @@ img {
 
 .repQuote:hover{
 	opacity:1.0;
-	filter:alpha(opacity=100); /* For IE8 and earlier */
 }
