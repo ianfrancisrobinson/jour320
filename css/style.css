@@ -42,7 +42,7 @@ h2{
 	text-align: center;
 	color: #DD4B5D;
 	line-height: 24px;
-	margin-top: 400px;
+	margin-top: 275px;
 }
 
 #subhead {
@@ -64,7 +64,7 @@ h2{
 	
 }
 
-#BannerOne{
+#Banner{
 	width:100%;
 	height: auto;
 	position: fixed;
@@ -72,7 +72,7 @@ h2{
 	z-index: -100;
 }
 
-.wrapOne{
+.wrap{
 	background-color: white;
 	margin-top: 60%;
 	width: 100%;
@@ -82,82 +82,20 @@ h2{
 	z-index: -100;
 }
 
-#TextOne{
-
+#content{
 	margin-left:30%;
 	margin-right:20%;
 }
 
-
-#BannerTwo{
-	width:100%;
-	height: auto;
-}
-
-
-.wrapTwo{
-	background-color: white;
-	text-align: center;
-	width: 100%;
-}
-
-#TextTwo{
-	text-align: center;
-	margin-left:30%;
-	margin-right:20%;
-}
-
-#BannerThree{
-	width:100%;
-	height: 400px;
-	background-color: black;
-	background-image: url("image/placeholder3.jpg");
-	background-size: cover;
-	background-position: center;
-}
-
-
-.wrapThree{
-	background-color: white;
-	text-align: center;
-	width: 100%;
-}
-
-#TextThree{
-	text-align: center;
-	margin-left:30%;
-	margin-right:20%;
-}
-
-#wrapThreePhoto{
-	height: 200px;
-	position: relative;
-	float: left;
-	margin: 5%;
-}
-
-
-.BarrierOnePhoto{
-	height:300px;
-}
-
-a {
-	text-decoration: none;
-	}
-
-  
-   
-
-}
 
 img {
 	float:left;
 }
 
-.Violence{
+.violence{
 	width: 500px;
 	height: 375px;
-	border-radius: 5px;
+	border-radius: 10px;
 	margin: auto;
 	opacity:0.4;
 	filter:alpha(opacity=40);
@@ -167,15 +105,15 @@ img {
 	
 }
 
-.Violence:hover{
+.violence:hover{
 	opacity:1.0;
 	filter:alpha(opacity=100); /* For IE8 and earlier */
 }
 
-.ViolenceQuote{
+.violenceQuote{
 	width: 500px;
 	height: 375px;
-	border-radius: 5px;
+	border-radius: 10px;
 	margin: auto;
 	opacity:0.4;
 	filter:alpha(opacity=40);
@@ -185,17 +123,17 @@ img {
 }
 
 
-.ViolenceQuote:hover{
+.violenceQuote:hover{
 	opacity:1.0;
 	filter:alpha(opacity=100); /* For IE8 and earlier */
 }
 
 
 
-.Victim{
+.victim{
 	width: 500px;
 	height: 375px;
-	border-radius: 5px;
+	border-radius: 10px;
 	margin: auto;
 	opacity:0.4;
 	filter:alpha(opacity=40);
@@ -205,15 +143,15 @@ img {
 	
 }
 
-.Victim:hover{
+.victim:hover{
 	opacity:1.0;
 	filter:alpha(opacity=100); /* For IE8 and earlier */
 }
 
-.VictimQuote{
+.victimQuote{
 	width: 500px;
 	height: 375px;
-	border-radius: 5px;
+	border-radius: 10px;
 	margin: auto;
 	opacity:0.4;
 	filter:alpha(opacity=40);
@@ -223,15 +161,15 @@ img {
 }
 
 
-.VictimQuote:hover{
+.victimQuote:hover{
 	opacity:1.0;
 	filter:alpha(opacity=100); /* For IE8 and earlier */
 }
 
-.Rep{
+.rep{
 	width: 500px;
 	height: 375px;
-	border-radius: 5px;
+	border-radius: 10px;
 	margin: auto;
 	opacity:0.4;
 	filter:alpha(opacity=40);
@@ -241,15 +179,15 @@ img {
 	
 }
 
-.Rep:hover{
+.rep:hover{
 	opacity:1.0;
 	filter:alpha(opacity=100); /* For IE8 and earlier */
 }
 
-.RepQuote{
+.repQuote{
 	width: 500px;
 	height: 375px;
-	border-radius: 5px;
+	border-radius: 10px;
 	margin: auto;
 	opacity:0.4;
 	filter:alpha(opacity=40);
@@ -259,7 +197,7 @@ img {
 }
 
 
-.RepQuote:hover{
+.repQuote:hover{
 	opacity:1.0;
 	filter:alpha(opacity=100); /* For IE8 and earlier */
 }
