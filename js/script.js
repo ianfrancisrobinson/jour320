@@ -13,6 +13,10 @@ $(document).ready(function() {
         $(this).toggleClass('repQuote');
     });
 
+    $('.stigma').click(function() {
+        $(this).toggleClass('stigmaQuote');
+    });
+
 
 // Sidebar Animation
 

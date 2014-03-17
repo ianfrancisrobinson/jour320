@@ -154,6 +154,35 @@ h2{
 	opacity:1.0;
 }
 
+
+.stigma{
+	width: 600px;
+	height: 450px;
+	border-radius: 10px;
+	margin-right:20%;
+	opacity:0.6;
+	background-image: url("https://raw.github.com/ianfrancisrobinson/jour320/gh-pages/image/stigma.png");
+	background-size: cover;
+	background-position: center;
+	
+}
+
+.stigma:hover{
+	opacity:1.0;
+	filter:alpha(opacity=100); 
+}
+
+.stigmaQuote{
+	width: 600px;
+	height: 450px;
+	border-radius: 10px;
+	margin-right:20%;
+	opacity:0.4;
+	background-image: url("https://raw.github.com/ianfrancisrobinson/jour320/gh-pages/image/stigmadefinition.png");
+	background-size: cover;
+	background-position: center;
+}
+
 .rep{
 	width: 600px;
 	height: 450px;
